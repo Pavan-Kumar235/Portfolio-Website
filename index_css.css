@@ -1,0 +1,342 @@
+body { 
+    margin: 0;
+    background-color: rgb(78, 184, 230);        /*rgb(69, 143, 119)*/
+    background-image: url('https://cdn.wallpapersafari.com/44/65/wy6OTa.jpg');
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    /*background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqU6ovBuYSxzDCcQbUY_lZ7i-3GzGfPUIXD68JnXKKNlK3JKC7KgLp-gd7WID7jbWMvzw&usqp=CAU');
+    background-size: cover;*/
+}
+
+.head_left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.head_empty {
+    width: 30%;
+}
+
+.head_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 40%;
+}
+
+.head_right table td {
+    width: 109px;
+    text-align: center;
+}
+
+.head_right table #contact {
+    margin-left: 10px;
+}
+
+.head_right a {
+    font-size: 25px;
+    text-decoration: none;
+    color: gray;
+}
+
+.head_right a:hover {
+    color: white;
+    background-color: black;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+
+
+
+.first_div {
+    display: flex;
+    /*background-image: url('');
+    background-size: cover;*/
+}
+
+.first_div .about {
+    width: 55%;
+}
+
+.first_div .about .me {
+    margin-left: 100px;
+}
+
+.first_div .about .me b {
+    font-size: 25px;
+    
+}
+
+.first_div .about .name {
+    display: flex;
+    align-items: center;
+}
+
+.first_div .empty {
+    width: 5%;
+}
+
+.first_div #pic_div {
+    display: flex;
+    justify-content: right;
+    width: 40%; 
+}
+
+.first_div #pic_div img {
+    width: 50%;
+    background-image: url('Pavan\ Kumar\ background.png');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid blue;
+}
+
+
+
+
+
+/*.company {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqU6ovBuYSxzDCcQbUY_lZ7i-3GzGfPUIXD68JnXKKNlK3JKC7KgLp-gd7WID7jbWMvzw&usqp=CAU');
+    background-size: cover;
+}
+
+.company .company_details #gas_logo {
+    width: 200px;
+}
+
+.company .company_details #gas_link {
+    text-decoration: none;
+    color: rgb(107, 8, 90);
+    font-size: 25px;
+}*/
+
+
+
+
+
+.projects {
+    display: flex;
+    height: 200px;  
+
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 507px;
+    /*background-image: url('gain\ and\ shine.png');
+    background-size: cover;*/
+}
+
+/*.company a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 35px;
+}*/
+
+.projects .pro_1 {
+    /*background-color: rgb(199, 196, 197);*/
+    width: 507px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url('https://media.istockphoto.com/id/1418686212/vector/login-account-template-background.jpg?s=612x612&w=0&k=20&c=NngGn9DOXZT0s7X1LqnTey4GWRPuo_-piEx7crbC5oA=');
+    background-size: cover;
+    background-position: center;*/
+}
+.projects .pro_1 a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 35px;
+}
+
+.projects .pro_2 {
+    /*background-color: red;*/
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url('https://www.rolandberger.com/img/Tiles/KIQuiz_Search_result_teaser_01.jpg');
+    background-size: cover;
+    background-position: center;*/
+}
+.projects .pro_2 a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 35px;
+}
+
+.projects .pro_3 {
+    /*background-color: pink;*/
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url('https://play-lh.googleusercontent.com/0b5u0v9Jo6agmcP2wOeKjWX7JIOHuwO9FaHhUK4GITc9iaUY7Xiw9gQrsfzIYA7RqKY=w240-h480-rw');
+    background-size: cover;
+    background-position: center;*/
+}
+.projects .pro_3 a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 35px;
+}
+
+.projects .pro_1 #loginform_head {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.projects .pro_2 #quiz_head {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.projects .pro_3 #songs_head {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+
+
+
+
+.chatbot {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.chatbot .user_details {
+    color: white;
+    width: 40%;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+    border: 10px solid rgb(224, 22, 191);
+}
+
+.chatbot .user_details #chat_tbl {
+    width: 100%;
+    height: 200px;
+}
+
+.chatbot .user_details #chat_tbl label,label {
+    font-size: 20px;
+}
+
+.chatbot .user_details #chat_tbl input {
+    width: 270px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.chatbot .user_details #chat_tbl input,label,textarea {
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.chatbot .user_details input,textarea {
+    background-color: black;
+    color: white;
+}
+
+.chatbot .user_details #btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 25px;
+    background-color: green;
+}
+
+
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    background-color: black;
+    color: greenyellow;
+    border: 3px solid rgb(255, 0, 217);
+    border-radius: 15px;
+}
+
+.footer .footer_content #insta_logo {
+    width: 25.5px;        /*55px same height*/
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.footer .footer_content #github_logo {
+    width: 32px;        /*55px same height*/
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.footer .footer_content #linkedin_logo {
+    width: 23.5px;        /*55px same height*/
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.footer .footer_content #twitter_logo {
+    width: 42.5px;        /*55px same height*/
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.footer .footer_content #insta_logo:hover {
+    transition: 0.5s;
+    width: 48px;
+    transform: rotate(360deg);
+}
+
+.footer .footer_content #github_logo:hover {
+    transition: 0.5s;
+    width: 58px;
+    transform: rotate(360deg);
+}
+
+.footer .footer_content #linkedin_logo:hover {
+    transition: 0.5s;
+    width: 44px;
+    transform: rotate(360deg);
+}
+
+.footer .footer_content #twitter_logo:hover {
+    transition: 0.5s;
+    width: 75.5px;
+    transform: rotate(360deg);
+}
